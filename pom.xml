@@ -12,6 +12,7 @@
 
     <modules>
         <module>abstractFactory</module>
+        <module>builder</module>
     </modules>
 
     <dependencies>
