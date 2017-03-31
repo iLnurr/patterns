@@ -15,7 +15,7 @@ public class FactoryTest {
     public void init(){
         factory = new ConcreteFactory1();
         client = new Client();
-        client.createProduct(factory);
+        client.needProductFrom(factory);
     }
 
     @Test

@@ -6,7 +6,7 @@ public class Client {
     public Client() {
     }
 
-    public void createProduct(AbstractFactory aFactory){
+    public void needProductFrom(AbstractFactory aFactory){
         setFactory(aFactory);
         setProductA(aFactory.createProductA());
         setProductB(aFactory.createProductB());
@@ -21,7 +21,7 @@ public class Client {
     }
 
     public AbstractProductA getProductA() {
-        return factory.createProductA();
+        return productA;
     }
 
     public void setProductA(AbstractProductA productA) {
@@ -39,13 +39,13 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
 
-        client.createProduct(new ConcreteFactory1());
+        client.needProductFrom(new ConcreteFactory1());
         AbstractFactory factory1 = client.getFactory();
         AbstractProductA productA1 = client.getProductA();
         AbstractProductB productB1 = client.getProductB();
         System.out.println(factory1.toString() + " " + productA1 + " " + productB1);
 
-        client.createProduct(new ConcreteFactory2());
+        client.needProductFrom(new ConcreteFactory2());
         AbstractFactory factory2 = client.getFactory();
         AbstractProductA productA2 = client.getProductA();
         AbstractProductB productB2 = client.getProductB();
