@@ -13,6 +13,7 @@
     <modules>
         <module>abstractFactory</module>
         <module>builder</module>
+        <module>factoryMethod</module>
     </modules>
 
     <dependencies>
