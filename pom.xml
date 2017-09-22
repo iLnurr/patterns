@@ -15,6 +15,7 @@
         <module>builder</module>
         <module>factoryMethod</module>
         <module>prototype</module>
+        <module>akka</module>
     </modules>
 
     <dependencies>
