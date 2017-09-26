@@ -18,6 +18,7 @@
 
     <modules>
         <module>pipe_and_filter</module>
+        <module>scatter-gather</module>
     </modules>
 
     <dependencies>
