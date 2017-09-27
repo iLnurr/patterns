@@ -19,6 +19,7 @@
     <modules>
         <module>pipe_and_filter</module>
         <module>scatter-gather</module>
+        <module>route_slip</module>
     </modules>
 
     <dependencies>
