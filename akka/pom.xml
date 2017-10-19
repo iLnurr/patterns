@@ -21,6 +21,7 @@
         <module>scatter-gather</module>
         <module>route_slip</module>
         <module>normalizer</module>
+        <module>canonical_data_model</module>
     </modules>
 
     <dependencies>
